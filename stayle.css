@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-image: url(./Untitled1.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.container:hover {
+    background-image: url(./images\ \(2\).jpg);
+}
+.box{
+    border: 2px solid black;
+    display: inline-flex;
+    /* max-width: 300px; */
+    min-width: 250px;
+    /* min-height: 250px; */
+    max-height: 200px;
+    overflow: hidden;
+
+}
